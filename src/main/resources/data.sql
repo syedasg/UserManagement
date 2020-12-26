@@ -1,0 +1,23 @@
+INSERT INTO GENDER_DETAILS VALUES(1,'Male');
+INSERT INTO GENDER_DETAILS VALUES(2,'Fe-Male');
+
+INSERT INTO COUNTRY_NAMES VALUES(101,'INDIA');
+INSERT INTO COUNTRY_NAMES VALUES(201,'USA');
+
+
+INSERT INTO STATE_NAMES VALUES(1001,'Andhra Pradesh',101);
+INSERT INTO STATE_NAMES VALUES(2001,'Karnataka',101);
+INSERT INTO STATE_NAMES VALUES(3001,'New Jersy',201);
+INSERT INTO STATE_NAMES VALUES(4001,'Ohio',201);
+
+Insert Into CITY_NAMES Values(1,'Vizag',1001);
+Insert Into CITY_NAMES Values(2,'Guntur',1001);
+Insert Into CITY_NAMES Values(3,'Banglore',2001);
+Insert Into CITY_NAMES Values(4,'Mysore',2001);
+Insert Into CITY_NAMES Values(5,'Maywood',3001);
+Insert Into CITY_NAMES Values(6,'Westwood',3001);
+Insert Into CITY_NAMES Values(7,'Oakwood',4001);
+Insert Into CITY_NAMES Values(8,'Cuyahoga County',4001);
+
+
+
