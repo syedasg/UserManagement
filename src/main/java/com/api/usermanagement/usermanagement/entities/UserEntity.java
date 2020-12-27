@@ -1,6 +1,7 @@
 package com.api.usermanagement.usermanagement.entities;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,6 +12,7 @@ import javax.persistence.*;
 @ToString
 @Entity
 @Table(name="USER_REGISTRATION")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class UserEntity {
 
     @Id
